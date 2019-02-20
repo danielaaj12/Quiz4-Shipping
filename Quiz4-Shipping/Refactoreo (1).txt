@@ -1,0 +1,11 @@
+﻿Refactoreo de tabs.html
+
+
+1. Se agregan las etiquetas <!DOCTYPE html>  </head>  </html>  </body>.
+2. Colocar clases solo a lo que vaya a modificar.
+3. Utilizar </ul> para cada tab y </li> para su contenido.
+4. Cambio de los </div> del tab#1 por </ol>
+5. Cambio de los </div> del tab#2 por </ol>
+6. Quito clases de los </p> del </div> “rma-box”, ya que son innecesarias.
+7. Cambio el nombre de las clases de los </div> “left-col” y “right-col” , por “content-right” y “content-left”, ya que son más fáciles de comprender que ahí va a estar el contenido de cada columna.
+8. Cambio nombres de varias clases para mejor comprensión.

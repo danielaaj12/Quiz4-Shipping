@@ -1,24 +1,37 @@
-.tab-content{
-  display:none;
-}
-.active{
-  display: block;
-  position: absolute;
-  top: 25px;
+.ui-tab-width {
+	display: inline-block;
+	margin-left: 2%;
 }
 
-.ui-tab-right{
-  float: right;
+.ui-tabs-container {
+	height: 70vh;
+	position: relative;
+	
+}
+
+.ui-tabs {
+	position: relative;
+	list-style: none;
+}
+
+.tab-left {
+	left: 10%;
+}
+
+.tab-right {
+	right: 10%;
 }
 
 @media only screen and (max-width: 600px) {
-	.tab-content-showing {
-		height: 200px;
-		overflow: hidden;
-		overflow-y: auto;
+	.ui-tabs {
+		position: unset;
+	}
+	
+	.tab-left {
+		position: unset;
+	}
+	
+	.tab-right {
 		position: unset;
 	}
 }
-
-
-
