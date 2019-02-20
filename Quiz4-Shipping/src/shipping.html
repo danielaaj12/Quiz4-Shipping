@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <title>Shipping</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" type="text/css" media="screen" href="src/css/style.css">
+  <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
@@ -18,7 +18,7 @@
       <ul class="ui-tabs-container" id="js-tabs-container">
         <!--Tab #1-->
         <li class="ui-tabs">
-          <a href="#tab-1" class="tab-left">Flat Rate UPS Label
+          <a href="#tab-1" class="tab-left tab">Flat Rate UPS Label
             <span>You Pay: $6.99</span>
           </a>
 
@@ -37,7 +37,7 @@
               Print UPS Label
             </a>
 
-            <ul class="steps-list">
+            <ol class="steps-list">
               <li>
                 Package yout return in a box
               </li>
@@ -52,21 +52,21 @@
                   UPS Location
                 </a>
               </li>
-            </ul>
+            </ol>
             <p class="ui-tiny">* USA only</p>
           </div>
         </li>
 
         <!--Tab #2-->
-        <li class="ui-tabs">
-          <a href="#tab-2" class="tab-right">Ship It Yourself
+        <li class="ui-tabs ui-tab-right">
+          <a href="#tab-2" class="tab-right tab">Ship It Yourself
             <span>
               You Pay: Full Price from Your Preferred
             </span>
           </a>
 
           <div id="tab-2" class="tab-content">
-            <ul class="steps-list">
+            <ol class="steps-list">
               <li>
                 Package your return in a box
               </li>
@@ -76,7 +76,7 @@
               <li>
                 Mail to <span class="shipping-url">competitivecyclist.com</span>
               </li>
-            </ul>
+            </ol>
 
             <div class="content-left">
               <ul class="instructions-info">
@@ -137,7 +137,9 @@
     </div>
   </div>
 
-  <script src="src/js/script.js"></script>
+  <script src="js/tabs.js"></script>
+  <script src="js/acordeón.js"></script>
+
 </body>
 
 </html>
